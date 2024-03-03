@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rock_paper_scissors_game/rps_game.dart';
+import 'package:rock_paper_scissors_game/page/rps_game_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +18,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const RPSGameController());
+        home: const RPSGamePage());
   }
 }

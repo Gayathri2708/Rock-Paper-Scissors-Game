@@ -1,20 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:rock_paper_scissors_game/strings.dart';
+import 'package:rock_paper_scissors_game/constants.dart/strings.dart';
 
 enum Move { rock, paper, scissors }
 
-class RPSGameController extends StatefulWidget {
-  const RPSGameController({super.key});
-
-  @override
-  State<RPSGameController> createState() => _RPSGameControllerState();
-}
-
-class _RPSGameControllerState extends State<RPSGameController> {
-  @override
-  void initState() {
-    super.initState();
-  }
+class RPSGamePage extends StatelessWidget {
+  const RPSGamePage({super.key});
 
   @override
   Widget build(BuildContext context) {
